@@ -6,6 +6,7 @@ import { TextboxComponent } from './textbox/textbox.component';
 
 @NgModule({
   imports: [CommonModule],
-  declarations: [ControlsComponent, ImageComponent, TextboxComponent]
+  declarations: [ControlsComponent, ImageComponent, TextboxComponent],
+  exports: [ImageComponent]
 })
 export class ControlsModule {}
